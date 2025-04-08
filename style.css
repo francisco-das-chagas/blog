@@ -1,0 +1,29 @@
+:root {
+  --dark-10: #121214;
+  --dark-20: #17171A;
+  --dark-30: #202024;
+  --dark-40: #252529;
+  --dark-50: #AFABB6;
+  --dark-60: #FFFFFF;
+
+  --brand-color: #E07B67;
+
+  --primary-font: 'Space Grotesk';
+  --secondary-font: 'Inter';
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--primary-font);
+  color: var(--dark-60);
+  background-color: var(--dark-10);
+}
+.secondary-font {
+  font-family: var(--secondary-font);
+  color: var(--brand-color);
+}
