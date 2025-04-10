@@ -57,3 +57,57 @@ body {
   font-weight: 300;
   font-size: 20px;
 }
+main .card {
+  width: 1000px;
+  margin: 0 auto;
+  border: 1px solid #E07B67;
+  padding: 30px 20px;
+  border-radius: 4px;
+  margin-top: 60px;
+}
+
+.data__card {
+  font-size: 14px;
+  color: #E07B67;
+  font-family: var(--secondary-font); 
+  position: relative;
+  padding-bottom: 16px;
+}
+.data__card::after {
+  content: '';
+  background-image: url("img/Vector.svg");
+  top: 0;
+  right:0px;
+  left: 900px;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  
+}
+
+.card__description {
+  padding: 16px 20px;
+  border: 1px solid #AFABB6;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* background-color: #AFABB6; */
+}
+
+.card__description h2 {
+  font-family: var(--primary-font);
+  font-size: 1.2rem;
+  font-weight: 500;
+  letter-spacing: 1.2;
+}
+
+.card__description p {
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  font-weight: 500;
+  color: #AFABB6;
+  line-height: 160%;
+  padding-top: 10px;
+  /* background-color: blue; */
+}
